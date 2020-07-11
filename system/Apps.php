@@ -280,7 +280,7 @@ class Apps extends Menu
                     ->send();
             }
             return $this->render(
-                in_array($this->texts[0], ['new_chat_member', 'leave_member'])
+                in_array($this->texts[0], ['new_member', 'leave_member'])
                 ? ''
                 : $this->texts[0]
             );
