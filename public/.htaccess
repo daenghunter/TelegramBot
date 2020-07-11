@@ -1,0 +1,11 @@
+# Redirect to front controller
+RewriteEngine On
+Options All -Indexes
+Header set X-XSS-Protection "1; mode=block"
+Header set X-Content-Type-Options nosniff
+header always set x-frame-options "SAMEORIGIN"
+# RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteRule ^ index.php [QSA,L]
+RewriteRule ^ index.php [QSA,L]
