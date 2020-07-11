@@ -31,7 +31,7 @@ $DB = [
 ```
 
 Oke file ```settings.php``` sudah di rubah, sekarang import ```TeleBot.sql``` ke server database anda,
-jika sudah lalu arahain domainnya di cpanel ke folder public: ```domain.com/public``` inget jangan taro di folder root untuk ke amanan :v,
+jika sudah lalu arahain domainnya di cpanel ke folder public: ```domain.com/public_html/public``` inget jangan taro di folder root untuk ke amanan :v,
 jika semua sudah tinggal upload scriptnya ke cpanel lalu ubah semua file premission ke 775
 
 Oke semua sudah siap tinggal coba chat dengan bot nya hheee, maaf jika ada yg error karena saya sendiri masih belejar :)
